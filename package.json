@@ -1,0 +1,35 @@
+{
+  "name": "update-contrib",
+  "description": "The most interesting project in the world > Verb",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/update-contrib",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/update-contrib",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/update-contrib/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "update-contributors": "^0.2.0"
+  },
+  "keywords": [
+    "contrib",
+    "update"
+  ],
+  "verb": {
+    "related": {
+      "list": []
+    }
+  }
+}
