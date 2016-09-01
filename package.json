@@ -1,16 +1,18 @@
 {
-  "name": "update-contrib",
-  "description": "The most interesting project in the world > Verb",
+  "name": "updater-contributors",
+  "description": "Update the contributors array in package.json with the contributors returned by the GitHub API.",
   "version": "0.1.0",
-  "homepage": "https://github.com/jonschlinkert/update-contrib",
+  "homepage": "https://github.com/update/updater-contributors",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/update-contrib",
+  "repository": "update/updater-contributors",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/update-contrib/issues"
+    "url": "https://github.com/update/updater-contributors/issues"
   },
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "LICENSE",
+    "updatefile.js"
   ],
   "main": "index.js",
   "engines": {
@@ -20,12 +22,25 @@
     "test": "mocha"
   },
   "dependencies": {
-    "extend-shallow": "^2.0.1",
-    "update-contributors": "^0.2.0"
+    "async-array-reduce": "^0.2.0",
+    "github-base": "^0.4.1",
+    "github-contributors": "^0.3.0",
+    "stringify-author": "^0.1.3"
   },
   "keywords": [
     "contrib",
-    "update"
+    "fix",
+    "lint",
+    "linter",
+    "maintain",
+    "plugin",
+    "plugins",
+    "up-to-date",
+    "update",
+    "update-plugin",
+    "update-updater",
+    "updater",
+    "updaterplugin"
   ],
   "verb": {
     "related": {
