@@ -27,8 +27,12 @@
     "github-contributors": "^0.3.0",
     "stringify-author": "^0.1.3"
   },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.10"
+  },
   "keywords": [
     "contrib",
+    "contributors",
     "fix",
     "lint",
     "linter",
@@ -43,8 +47,27 @@
     "updaterplugin"
   ],
   "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
     "related": {
-      "list": []
-    }
+      "list": [
+        "updater-eslint",
+        "updater-gitignore",
+        "updater-package"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
   }
 }
